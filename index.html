@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/select.js"></script>
+    <title>praca domowa modul 4</title>
+</head>
+
+<body>
+    <form class="js-form">
+        <div class="container">
+            <div class="container__title">VOID</div>
+            <fieldset class="fieldset">
+                <legend class="fieldset_legend">Currency Convert</legend>
+                <div class="fieldset__currencyPlace">
+                    <label class="fieldset__label ">Zloty</label>
+                    <input class="fieldset__input js-amount" autofocus type="number" vaule="1">
+                </div>
+                <div class="fieldset__currencyPlace">
+                    <label class="fieldset__label "><span class="fieldset__select js-currencyNow">Euro</span></label>
+
+                    <select class="fieldset__input js-select">
+                        <option value="EURO"> EURO</option>
+                        <option value="USD"> USD </option>
+                        <option value="PESO"> PESO </option>
+                        <option value="RUBEL"> RUBEL</option>
+                    </select>
+
+                </div>
+                <div class="fieldset__convertPlace">
+                    <span class="fieldset__suma"><strong class="fieldset__result js-result">0</strong></span>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
+
+</html>
