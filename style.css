@@ -13,6 +13,11 @@ body {
     background: #371B58;
     color: #E9A6A6;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./bg-void.jfif");
+    background-repeat: no-repeat;
+    background-size:3000px;
+    background-position: 50% 0;
+    background-attachment: scroll
 
 }
 
